@@ -1,0 +1,23 @@
+.items {
+    border: solid 2px;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.items .TareaItem-p--completed {
+    text-decoration: line-through;
+}
+
+.items .icon-check--active {
+    color: green;
+}
+
+.items .disapproved-item :hover {
+    background-color: red;
+
+}

@@ -1,0 +1,14 @@
+.tareas {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.tareas .container-items {
+    width: 100%;
+    padding: 0;
+}
